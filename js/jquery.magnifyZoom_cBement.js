@@ -95,9 +95,9 @@
 
                 //Use jQuery’s css() method to apply the new values you have to the magnifying glass and its background.
                 this.$glass.css({
-                    width: $.MagnifyZoom.defaults.options,
-                    height: $.MagnifyZoom.defaults.options,
-                    borderRadius: $.MagnifyZoom.defaults.options,
+                    width: $.MagnifyZoom.defaults.width,
+                    height: $.MagnifyZoom.defaults.width,
+                    borderRadius: $.MagnifyZoom.defaults.cornerRounding,
                     top: posY,
                     left: posX,
                     backgroundPosition: rx + 'px ' + ry + 'px'
